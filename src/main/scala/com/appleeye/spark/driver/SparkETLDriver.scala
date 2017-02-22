@@ -8,6 +8,7 @@ import org.apache.spark.sql.{SQLContext, SaveMode}
 import org.apache.spark.{SparkConf, SparkContext, SparkFiles}
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.types.{StructType,StructField,StringType, IntegerType};
+
 object SparkETLDriver {
 
   val schemaString = "eventTs responseTime srcIP status " +

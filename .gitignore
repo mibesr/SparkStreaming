@@ -1,0 +1,30 @@
+*.class
+*.log
+/bin/
+/project/target/
+/target/
+/checkpoint
+.idea
+.cache-main
+.cache-tests
+.classpath
+.project
+.settings/
+esconfig_running.log
+project/project/
+data/
+metastore_db/
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
